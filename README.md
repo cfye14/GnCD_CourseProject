@@ -7,9 +7,9 @@ the 180x68 'dfAverages'. dfAverages should show as a table in the top left windo
 One way to view the text file associated with the project is to do the following:
 
 1. fileURL <- download.file(url, destfile="./courseProjectAverages.txt",method="curl") 
-2. 
+ 
 2. data <- read.table("courseProjectAverages.txt", header=T)
-3. 
+
 3. View(data)
 
 One way to move the run_analysis script into RStudio is to clone the URL for this repo, go to Project>New Project>Version Control>git, paste the URL into Repository URL field, then create project.
