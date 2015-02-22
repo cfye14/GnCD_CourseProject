@@ -4,8 +4,9 @@ There is one script for this project, 'run_analysis.r'.
 When the script is sourced to the console in R studio, it should output, among other data, 
 the 180x68 'dfAverages'. dfAverages should show as a table in the top left window of RStudio.
 
-To view the text file "courseProjectAverages.txt" in R, use the following commands:
-data <- read.table(file, header=T) 
+One way to view the text file associated with the project is to do the following:
+fileURL <- download.file(url, destfile="./courseProjectAverages.txt",method="curl") 
+data <- read.table("courseProjectAverages.txt", header=T)
 View(data)
 
 One way to move the run_analysis script into RStudio is to clone the URL for this repo, go to Project>New Project>Version Control>git, paste the URL into Repository URL field, then create project.
