@@ -470,7 +470,7 @@ The following descriptions are taken directly from the 'features_info.txt' file 
 
 Time vs frequency domain explained: "These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise."
 
-* "the body linear acceleration and angular velocity were derived in time to obtain Jerk signals"
+*"the body linear acceleration and angular velocity were derived in time to obtain Jerk signals"
 
 ** "Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm"
 
