@@ -8,6 +8,8 @@ To view the text file "courseProjectAverages.txt" in R, use the following comman
 data <- read.table(file, header=T) 
 View(data)
 
+One way to move the run_analysis script into RStudio is to clone the URL for this repo, go to Project>New Project>Version Control>git, paste the URL into Repository URL field, then create project.
+
 The raw data for the project were downloaded from this zip folder: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
