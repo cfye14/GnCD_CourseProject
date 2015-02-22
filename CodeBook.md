@@ -35,7 +35,7 @@ into the final data frame, with the measurement averages in separate columns for
 from the plyr package 'mapped' from the values 1:6 to the corresponding activity names for each activity ID. The activity description names are lowercase
 and not uppercase as in the 'activity-labels.txt' file in the UCI Dataset folder.
 
-Note: The tidy data form of the final data frame is 'wide,' in that each measurement are appended to each subject/activity group. The other option 
+Note: The tidy data form of the final data frame is 'wide,' in that each measurement is appended as a column to each subject/activity group. The other option 
 would have been to create a 'long' data frame, with one measurement value column for each subject/activity/measurement group.
 
 ##Codebook   
