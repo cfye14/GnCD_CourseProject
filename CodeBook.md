@@ -2,10 +2,10 @@
 The final data frame is assigned to dfAverages. The final command should show dfAverages as a table in the top left window of RStudio.
 
 dfAverages has 180 rows and 68 columns. The 180 rows are for the 30 different subjects measured on 6 different activities. 
-The data is arranged by subject and then activity, and the order of the columns as such with subject id in the first column. 
-The following 66 columns are average of the mean and standard deviation ('std') of the 33 measurements 
+The data is arranged by subject and then activity, and the columsn are ordered accordingly with subject id in the first column. 
+The following 66 columns are average of the mean and standard deviation ('std') of 33 measurements 
 captured by the accelerometer and gyroscope of the Samsung phones. The labels were taken from the 'features.txt' file and not altered,
-because changing the variable names was not perceived as worthwhile from an offhand benefit/cost calculation. 
+because changing the variable names was not perceived as worthwhile from a quick benefit/cost calculation. 
 
 The 'run_analysis.r' script assumes the 'UCI HAR Dataset' is unzipped in the working directory such that arguments of the form
 'read.csv("./UCI HAR Dataset/..."' work.
@@ -43,7 +43,6 @@ would have been to create a 'long' data frame, with one measurement value column
 Explanation: There are 66 column variables that are the average for the mean and standard deviation of 33 measurements from the Samsung smartphones. Note that the value recorded in the final data frame for the 66 measurements is an average. In the table below, 'value explained' describes what each measurement is, or what is being averaged.
 
 
-<!DOCTYPE html>
 <html>
 <body>
 
@@ -467,13 +466,13 @@ Explanation: There are 66 column variables that are the average for the mean and
 </body>
 </html>
 
-The following descriptions are taken directly from the 'features_info.txt' file supplied for the project
+The following descriptions are taken directly from the 'features_info.txt' file supplied for the project.
 
 Time vs frequency domain explained: "These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise."
 
-*"the body linear acceleration and angular velocity were derived in time to obtain Jerk signals"
+* "the body linear acceleration and angular velocity were derived in time to obtain Jerk signals"
 
-**"Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm"
+** "Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm"
 
 
 
