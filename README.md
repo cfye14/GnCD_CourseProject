@@ -5,6 +5,7 @@ When the script is sourced to the console in R studio, it should output, among o
 the 180x68 'dfAverages'. dfAverages should show as a table in the top left window of RStudio.
 
 One way to view the text file associated with the project is to do the following:
+
 fileURL <- download.file(url, destfile="./courseProjectAverages.txt",method="curl") 
 data <- read.table("courseProjectAverages.txt", header=T)
 View(data)
