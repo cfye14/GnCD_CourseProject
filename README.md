@@ -7,6 +7,6 @@ the 180x68 'dfAverages'. dfAverages should show as a table in the top left windo
 The raw data for the project were downloaded from this zip folder: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
-The other file in this repo, CodeBook.md, explains how and why the data frame is shaped and summarized, 
+CodeBook.md explains how and why the data frame is shaped and summarized, 
 adds a couple other notes, and includes a table with a summary of each variable.
 
