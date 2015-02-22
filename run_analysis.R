@@ -1,6 +1,8 @@
 library(plyr)
 library(dplyr)
 library(reshape2)
+download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",destfile="./projectData.zip", method="curl")
+unzip("projectData.zip")
 features <- read.csv("./UCI HAR Dataset/features.txt", header=F, sep=" ", stringsAsFactors=F)
 features <- features[,2]
 x_test <- read.csv("./UCI HAR Dataset/test/X_test.txt", sep="", header=F)
