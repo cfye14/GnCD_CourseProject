@@ -7,7 +7,7 @@ The following 66 columns are average of the mean and standard deviation ('std') 
 captured by the accelerometer and gyroscope of the Samsung phones. The labels were taken from the 'features.txt' file and not altered,
 because changing the variable names was not perceived as worthwhile from a quick benefit/cost calculation. 
 
-The 'run_analysis.r' script includes the steps to download the zip file and unzip it, so the 'UCI HAR Dataset' folder should be in the working directory.
+The 'run_analysis.r' script includes the steps to download the zip file and unzip it, so the 'UCI HAR Dataset' folder should be in the working directory. If the 'UCI ...' folder is already in your working directory, feel free to delete those two steps from the script.
 
 The data was cleaned and transformed in the following steps:
 
