@@ -20,4 +20,7 @@ df <- arrange(df, subject, activity)
 df <- melt(df, id=c("subject","activity"),measure.vars=3:68)
 dfAverages <- dcast(df, subject + activity ~ variable, mean)
 dfAverages$activity <- mapvalues(dfAverages$activity, from=(1:6), to=c("walking","walking_upstairs","walking_downstairs","sitting","standing","laying"))
-View(dfAverages)
+write.table(dfAverages, file="./courseProjectAverages.txt",row.names=F)
+data <- read.table("courseProjectAverages.txt", header=T)
+View(data)
+
